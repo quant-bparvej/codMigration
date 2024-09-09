@@ -188,7 +188,7 @@ async function ledgerEntry() {
     }
 }
 
-ledgerEntry();
+// ledgerEntry();
 
 module.exports = { ledgerMigration, ledgerEntry };
 
