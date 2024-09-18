@@ -65,6 +65,19 @@ const PortfolioHoldingAudits = sequelize.define('PortfolioHoldingAudits', {
     allowNull: false,
     defaultValue: 0.0000,
   },
+  cmd: {
+    type: DataTypes.STRING(20)
+  },
+  created_at: {
+    type: DataTypes.DATE,
+    allowNull: true,
+    defaultValue: new Date(),
+  },
+  updated_at: {
+    type: DataTypes.DATE,
+    allowNull: true,
+    defaultValue: new Date(),
+  }
 }, {
   tableName: 'portfolio_holding_audits',
   timestamps: true,

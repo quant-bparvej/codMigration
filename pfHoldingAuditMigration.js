@@ -344,7 +344,7 @@ async function pfHoldingsAuditEntry() {
     }
 }
 
-// pfHoldingsAuditEntry();
+pfHoldingsAuditEntry();
 
 
 module.exports = pfHoldingsAuditEntry;
